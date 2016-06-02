@@ -32,3 +32,9 @@ function sayHello(name) {
 
 sayHello('Tyler');
 console.log(age);
+
+if (age > 100) {
+    console.log('Wow, you are old!');
+} else {
+    console.log('Nice age, bro.');
+}
