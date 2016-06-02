@@ -42,11 +42,18 @@ if (age > 100) {
     console.log('Nice age, bro.');
 }
 
-switch (staff[0].performanceGrade) {
+for (var i = 0; i < 3; i++) {
+    var staffMember = staff[i];
+    console.log(staffMember.name + ' : ');
+    switch (staffMember.performanceGrade) {
     case 'A':
         console.log('Gold star!');
+        break;
     case 'B':
         console.log('Pretty good!');
+        break;
     case 'F':
-    console.log('Better luck nexxt time!');
+    console.log('Better luck next time!');
+        break;
+    }  
 }
